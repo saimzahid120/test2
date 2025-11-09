@@ -40,16 +40,12 @@
       position:fixed; inset:0; pointer-events:none; z-index:20;
     }
     .card {
-      position:absolute; left:50%; top:56%; transform:translate(-50%,0) scale(0.82) rotate(-1deg);
-      width: auto;
-      max-width:96vw; 
-      max-height:78vh; 
-      opacity:0;
-      border-radius:18px; 
-      box-shadow:0 16px 34px #d4b35233,0 10px 42px #d4b35222;
+      position:absolute; left:50%; top:56%; transform:translate(-50%,0) scale(0.70) rotate(-1deg);
+      width:auto; height:auto; max-width:85vw; max-height:62vh; opacity:0;
+      border-radius:16px; box-shadow:0 11px 24px #d4b35222,0 6px 26px #d4b35244;
       background:#fff;
-      padding:10px;
-      border:3px solid #dabb6199;
+      padding:5px;
+      border:2px solid #dabb6199;
       display:flex; align-items:center; justify-content:center;
       transition:
         opacity 1.2s cubic-bezier(.71,-0.14,.45,1.3),transform 1.18s cubic-bezier(.23,1.2,.38,.99),top 1.1s cubic-bezier(.23,1.2,.38,.99);
@@ -64,8 +60,8 @@
     }
     .card img {
       display:block;
-      max-width:93vw;
-      max-height:70vh;
+      max-width:80vw;
+      max-height:57vh;
       width:auto;
       height:auto;
       border-radius:14px;
@@ -73,8 +69,8 @@
       margin:auto;
     }
     @media(max-width:800px){
-      .card{max-width:98vw; max-height:75vw;}
-      .card img {max-width:97vw; max-height:65vh;}
+      .card{max-width:97vw;}
+      .card img {max-width:94vw;max-height:41vh;}
     }
     @keyframes pop-bounce {
       0%   {transform:translate(-50%, -70%) scale(0.88);}
@@ -132,5 +128,3 @@
   </script>
 </body>
 </html>
-
-
